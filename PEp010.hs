@@ -1,4 +1,5 @@
 --PEp010.hs
+--basic sieve of eratosthenes
 
 primeList = [ x | x <- [2..2000000] , isPrime x]
 
